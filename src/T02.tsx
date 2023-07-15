@@ -1,8 +1,9 @@
 import { useState } from "react";
 
 function T02() {
-  //   let counter = 0;
+  // let counter = 0;
   const [counter, setCounter] = useState(0);
+  console.log("render");
   function handleClick() {
     // counter += 1;
     setCounter(counter + 1);
